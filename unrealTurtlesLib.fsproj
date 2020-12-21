@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <OutputPath>../Managed/Build</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnrealEngine.Framework">
+      <HintPath>C:/code/UnrealCLR/Source/Managed/Framework/bin/Release/UnrealEngine.Framework.dll</HintPath>
+    </Reference>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>
