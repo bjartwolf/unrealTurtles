@@ -11,7 +11,15 @@
     <Reference Include="UnrealEngine.Framework">
       <HintPath>C:/code/UnrealCLR/Source/Managed/Framework/bin/Release/UnrealEngine.Framework.dll</HintPath>
     </Reference>
+    <Resource Include="data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Compile Include="Library.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
 </Project>
